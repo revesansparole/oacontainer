@@ -1,7 +1,11 @@
 {
+    "./.coverage": [], 
     "./.coveragerc": [], 
     "./.gitignore": [
         "W5J5/8ZuWR2XFvDJS9tfJ+z4Jd3vf3TC8R/ZvK3u2hCYqAnZ22w2EwRpZg38DcNTgBI9hdYf+zi2TRuodwH6ug=="
+    ], 
+    "./.travis.yml": [
+        "FwsLpNILgu0mkWukmpkwVWxkt5nAnuz45ke0hSZ+5+PXxmxNhghqkyr5E57KHiUdCX6bB+eHu4zKw/+ORilIiw=="
     ], 
     "./AUTHORS.rst": [], 
     "./CONTRIBUTING.rst": [], 
@@ -13,7 +17,7 @@
         "ra2y2oUajOs7MozuqoQXVDXUTxWmPDXggXHh3hKWJdI9WeEDAvu1NfVTYYgYMZp32kIWFnQEEt6KHmsNIyaIsA=="
     ], 
     "./README.rst": [
-        "NpInImcdK7HQFLVdzLlDEZbA9uAEZaKM6lTCUCfQi5aOf93nTfnCh9DJp9Dr0ZWsxXLXTQrH3g+rbgh7kRECnA=="
+        "alnYwcD8NWAsVBnMtHz7dNMdyQltKzixPZOmfn6uU//aEQrMZRdwarxMQaMu7yrRR/PKOLzStpF6uKSZph1Qbg=="
     ], 
     "./doc/authors.rst": [], 
     "./doc/contributing.rst": [], 
@@ -23,17 +27,24 @@
     "./doc/readme.rst": [], 
     "./doc/usage.rst": [], 
     "./dvlpt_requirements.txt": [
-        "USeo/iF3BoIRrdDj40Be37F8wWWti/2/JwOgEldYN+e8EY7ssd3dl9iWxKNS719hbnceOnu45aF+80sqAdW+Vw=="
+        "PMNMLcOL4W3uxGlMJBT9UE95RHRMUeDef02D51OybmIT51sBhkDv48R3ohQ82OjPwFf9sSnmnszpciNfXYCG2g=="
     ], 
     "./requirements.txt": [
-        "vmiIOMqGhuXJBom/KrWFzvETfJmbSMcLkvZ6XDTcFWl7XRHJgu1tcb4eHn97TgcziEqpfD96M5qO0DV3z3S+CQ=="
+        "AWuoxM/eZa+Zy1+ouKN+Lrc/SBs640mRZm3y4E/rbAOGZuvR7CtvYjlndWAzxwLd5fQj99R6tu0YJ/9TeDcx9w=="
     ], 
     "./setup.cfg": [
-        "chd+uMkSCzJ3CTwX5h7N8/s8A4laPrM4G32KIpJJOOjBjlrNCOLoJ/e3zkfuSDRHnomIX3p2tVzEqYVDmVdfyg=="
+        "d7BWODU6xS9EDQaX6AWusmFWKsNIZ1N02zr51znVh7mdN2h91gQFai+CxdDdi5QIDS95aePojLETiAgZ2EEbvQ=="
     ], 
     "./setup.py": [
         "zHTx7/t2jP9lL/+siHLN4E/GRRPZpkCqYl7aHRpKkm6Lstv8VCj6Tht7iWFG7nuqbLgM0yBikQSLcQayvdlq3w=="
     ], 
+    "./src/openalea.container.egg-info/PKG-INFO": [
+        "lTSqKH85koV1jYSQt+7J9xGs6sga0QiZ52rzuIQUBbbdv/MDjktaPUuaQYFgJwExmc/knDDcCGz0VyEb13qYqQ=="
+    ], 
+    "./src/openalea.container.egg-info/SOURCES.txt": [], 
+    "./src/openalea.container.egg-info/dependency_links.txt": [], 
+    "./src/openalea.container.egg-info/not-zip-safe": [], 
+    "./src/openalea.container.egg-info/top_level.txt": [], 
     "./src/openalea/__init__.py": [
         "2sk8h+XTWcTrTYSvRscCbTRjJWyGdgJ2THbA3Zxte+SsX5+26bbGIwhHi8qUCrhYN6Tk86o3wjiPrTg+2wmDuA=="
     ], 
@@ -41,8 +52,12 @@
         "bXi4YRtInDLkaTvGi4V/ZIZpKXGCIgIw/Qm7wX5YZ+tM5kkkAAGCzzuDhxJDzcpoWKBE1UxDj7mT+40YH1DZQA==", 
         "fIn+GWAvhWfY/9NV/Sw6VXI4UIvx1OTgGxXQ1U5+9JFQ4vhuETzkaQvz8W4M9rMDYlL0vAeRmP2p2DyMgcvb9A=="
     ], 
+    "./src/openalea/container/id_dict.py": [], 
+    "./src/openalea/container/id_generator.py": [], 
     "./src/openalea/container/version.py": [
         "9u2W46jEMEMq3ZJFhNBSDLcfV8R73vM1FPWlZz2LsxyOwW1/0fpDM16Yxig6tFhfdhNxz+Qw8gX0btUZqB898w=="
     ], 
-    "./test/__init__.py": []
+    "./test/__init__.py": [], 
+    "./test/test_id_dict.py": [], 
+    "./test/test_id_generator.py": []
 }
