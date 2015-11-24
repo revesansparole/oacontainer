@@ -1,0 +1,38 @@
+{
+    "_pkglts": {
+        "auto_install": true, 
+        "use_prompts": false
+    }, 
+    "base": {
+        "namespace": "openalea", 
+        "owner": "revesansparole", 
+        "pkgname": "container"
+    }, 
+    "coverage": {}, 
+    "doc": {
+        "description": "Set of data structures used in openalea such as : graph, grid, topomesh", 
+        "keywords": []
+    }, 
+    "github": {
+        "project": "oacontainer"
+    }, 
+    "license": {
+        "name": "mit", 
+        "organization": "openalea", 
+        "project": "{{base.pkg_full_name, }}", 
+        "year": 2015
+    }, 
+    "pysetup": {
+        "author_email": "revesansparole@gmail.com", 
+        "author_name": "{{key, base.owner}}", 
+        "intended_versions": [
+            "27"
+        ]
+    }, 
+    "test": {}, 
+    "version": {
+        "major": 0, 
+        "minor": 1, 
+        "post": 0
+    }
+}
