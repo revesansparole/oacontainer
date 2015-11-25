@@ -68,9 +68,8 @@ def test_id_dict_behave_like_normal_dict():
 
 
 def test_id_dict_only_handle_some_id_gen():
-    d = IdDict(idgenerator='max')
-    d = IdDict(idgenerator='set')
-    d = IdDict(idgenerator='list')
+    for gen in ('max', 'set', 'list'):
+        IdDict(idgenerator=gen)
     assert_raises(UserWarning, lambda: IdDict(idgenerator='tutu'))
 
 

@@ -37,7 +37,7 @@ class IdDict(dict):
 
         self._id_generator = None
         self._init_id_generator(gen_name)
-        
+
         for k, v in self.iteritems():
             self._id_generator.get_id(k)
 

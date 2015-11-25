@@ -9,13 +9,16 @@
         "pkgname": "container"
     }, 
     "coverage": {}, 
+    "coveralls": {}, 
     "doc": {
         "description": "Set of data structures used in openalea such as : graph, grid, topomesh", 
         "keywords": []
     }, 
+    "flake8": {}, 
     "github": {
         "project": "oacontainer"
     }, 
+    "landscape": {}, 
     "license": {
         "name": "mit", 
         "organization": "openalea", 
@@ -29,7 +32,12 @@
             "27"
         ]
     }, 
+    "readthedocs": {
+        "project": "{{key, github.project}}"
+    }, 
+    "sphinx": {}, 
     "test": {}, 
+    "tox": {}, 
     "travis": {}, 
     "version": {
         "major": 0, 
