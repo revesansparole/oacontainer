@@ -179,6 +179,11 @@ def test_add_vertex():
 
 
 @with_setup(setup_func, teardown_func)
+def test_add_vertex_raise_error_if_vid_already_used():
+    assert_raises(InvalidVertex, lambda: g.add_vertex(0))
+
+
+@with_setup(setup_func, teardown_func)
 def test_remove_vertex():
     g.remove_vertex(5)
     assert not g.has_vertex(5)
@@ -206,6 +211,11 @@ def test_add_edge():
     eid = g.add_edge(2, 1)
     assert eid in list(g.in_edges(1))
     assert eid in list(g.out_edges(2))
+
+
+@with_setup(setup_func, teardown_func)
+def test_add_edge_raise_error_if_id_already_used():
+    assert_raises(InvalidEdge, lambda: g.add_edge(0, 3, 0))
 
 
 @with_setup(setup_func, teardown_func)

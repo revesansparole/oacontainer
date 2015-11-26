@@ -397,7 +397,10 @@ class Graph(object):
         return:
          - vid (int): id used for the new vertex
         """
-        return self._vertices.add((set(), set()), vid)
+        try:
+            return self._vertices.add((set(), set()), vid)
+        except KeyError:
+            raise InvalidVertex(vid)
 
     def remove_vertex(self, vid):
         """Remove a specified vertex of the graph.
@@ -445,7 +448,10 @@ class Graph(object):
             raise InvalidVertex(sid)
         if tid not in self:
             raise InvalidVertex(tid)
-        eid = self._edges.add((sid, tid), eid)
+        try:
+            eid = self._edges.add((sid, tid), eid)
+        except KeyError:
+            raise InvalidEdge(eid)
         self._vertices[sid][1].add(eid)
         self._vertices[tid][0].add(eid)
         return eid
