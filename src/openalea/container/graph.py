@@ -335,7 +335,6 @@ class Graph(object):
         return:
          - (iter of int): iterator on edge ids
         """
-        print "in", vid, vid in self
         if vid not in self:
             raise InvalidVertex(vid)
         for eid in self._vertices[vid][0]:
