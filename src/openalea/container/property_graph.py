@@ -4,8 +4,7 @@
 #
 #       Copyright 2006-2009 INRIA - CIRAD - INRA
 #
-#       File author(s): Jerome Chopard <jerome.chopard@sophia.inria.fr>
-#                       Fred Theveny <frederic.theveny@cirad.fr>
+#       File author(s): Fred Boudon <fred.boudon@cirad.fr>
 #
 #       Distributed under the Cecill-C License.
 #       See accompanying file LICENSE.txt or copy at
