@@ -128,11 +128,6 @@ def test_edges():
 
 
 @with_setup(setup_func, teardown_func)
-def test_nb_edges():
-    assert g.nb_edges() == 9
-
-
-@with_setup(setup_func, teardown_func)
 def test_in_edges():
     for i in xrange(9):
         assert list(g.in_edges(i + 1)) == [i]
@@ -166,6 +161,7 @@ def test_nb_out_edges():
 
 @with_setup(setup_func, teardown_func)
 def test_nb_edges():
+    assert g.nb_edges() == 9
     for i in xrange(8):
         assert g.nb_edges(i + 1) == 2
 

@@ -12,7 +12,7 @@ def test_grid_can_be_empty():
 
 def test_grid_can_have_a_single_cell():
     shape = ()
-    for i in range(10) :
+    for i in range(10):
         shape = shape + (1,)
         g = Grid(shape)
         assert len(g) == 1
