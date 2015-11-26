@@ -55,6 +55,13 @@ setup(
         #      'wralea': wralea_entry_points
     },
     keywords='',
+    classifiers=[
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2 :: Only',
+        'Programming Language :: Python :: 2.7'
+    ],
     test_suite='nose.collector',
 )
 # }}

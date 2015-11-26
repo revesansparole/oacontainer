@@ -20,6 +20,9 @@ openalea.container
     :alt: Code health status
     :target: https://landscape.io/github/revesansparole/oacontainer/master
 
+.. image:: https://badge.fury.io/py/container.svg
+    :alt: PyPI version
+    :target: https://badge.fury.io/py/container
 
 .. }}
 

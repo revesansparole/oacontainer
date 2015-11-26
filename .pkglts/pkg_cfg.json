@@ -25,6 +25,11 @@
         "project": "{{base.pkg_full_name, }}", 
         "year": 2015
     }, 
+    "pypi": {
+        "classifiers": [
+            "Intended Audience :: Developers"
+        ]
+    }, 
     "pysetup": {
         "author_email": "revesansparole@gmail.com", 
         "author_name": "{{key, base.owner}}", 
